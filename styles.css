@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#breweryContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.brewery {
+  width: 300px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.brewery h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.brewery p {
+  margin: 0;
+}
+
+.brewery p:first-child {
+  font-weight: bold;
+}
+
+.brewery a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.brewery .address {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.brewery-type {
+  color: red;
+}
+
+.website {
+  color: blue;
+}
+
+.phone {
+  color: green;
+}
